@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THUNDER – QR Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fafafa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 15px;
+    }
+
+    .menu-container {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      padding: 30px;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h1 {
+      color: #e84118;
+      margin-bottom: 20px;
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 18px;
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    .price {
+      color: #27ae60;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1>Welcome to THUNDER</h1>
+
+    <div class="menu-item">
+      <span>Burger</span>
+      <span class="price">₹50</span>
+    </div>
+    <div class="menu-item">
+      <span>Pizza</span>
+      <span class="price">₹120</span>
+    </div>
+    <div class="menu-item">
+      <span>Fries</span>
+      <span class="price">₹30</span>
+    </div>
+    <div class="menu-item">
+      <span>Cold Drink</span>
+      <span class="price">₹20</span>
+    </div>
+  </div>
+
+  <footer>THUNDER MENU – QR by alxlx00</footer>
+</body>
+      </html>
